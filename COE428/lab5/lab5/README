@@ -1,0 +1,7 @@
+Q: add statement to read the specific standalone tag, and if detected, do not push or pop anything. 
+
+Could be read as
+	if < is detected and / is not directly after, read until next non character tag
+	if / is the next non character, ignore the tag.
+
+Comment: everything worked 

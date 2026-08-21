@@ -1,0 +1,17 @@
+Summary - Matthias Ko
+- Lab went well, referenced textbook, online resources, and AI to design and debug sorting algorithms. 
+- DISCLAIMER: AI and online resources were used as references and guides but were not used to plagiarise
+
+Analysis
+
+- For insertionSort best case input of 1 2 3 4 5, 4 comparisons, equivalent to n-1, and 8 copies, equivalent to 2(n-1) were recorded. Therefore the time complexity for best case sorting is Omega(n)
+
+- For the worst case insertionSort input of 5 4 3 2 1, 10 comparisons, equivalent to n(n-1)/2 comparisons, and 18 copies were recorded. Therefore the time complexity for worst case sorting follows the pattern of Omega(n^2)
+
+- For the average case insertionSort input of 1 2 3 6 5 4, 8 comparisons and 13 copies were recorded. This indicates that the time complexity falls between Omega(n) and Omega (n^2)
+
+- Worst case mergeSort outputted 5 comparisons, and 24 copy operations. This result matches the analysis for merge sort where the time complexity is Omega(n*log(n))
+
+- Best case mergeSort outputs 7 comparisons and 24 copy operations, also matching the merge sort analysis where the time complexity is Omega(n*log(n))
+
+- Average case mergeSort outputs 8 comparisons and 32 copy operations. This corresponds with the time complexity of Omega(n*log(n))

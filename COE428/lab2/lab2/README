@@ -1,0 +1,11 @@
+Suppose that towers (5,2,3) are invoked
+
+1. during the first recursive call, spare is calculated as 6-2-3 = 1, therefore the first recursive call is (4,2,1)
+2. 5 calls will be made
+3. Move #1: From Tower 2 to Tower 3
+4. towers (3,2,3)
+
+Suppose that towers (8,1,2) is invoked. How many lines will be printed to stdout?
+Answer: 255 lines will be printed
+
+Comments: everything worked

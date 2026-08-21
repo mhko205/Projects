@@ -1,0 +1,4 @@
+Since the mySort function has the signature (int array[], unsigned int n), and betterSort has the signature (array[], first, last), you could implement betterSort by calling betterSort (d, 0, n-1), where 0 and n-1 are the starting and ending indices respectively.
+
+Comments
+Everything worked, but understanding some parts of the lab was confusing, including the usage of the terminal
